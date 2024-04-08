@@ -2,32 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.navbar-color {
+  background-color: rgba(15, 9, 12, 0.80);
+  filter: drop-shadow(56px 0px 56px #290F00);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.navbar-blur1 {
+  filter: drop-shadow(64px 0px 64px #662500);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.border-gradient {
+  background: radial-gradient(circle at center, #B86E9F, #662525);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.border-gradient2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: radial-gradient(circle at center, #CC8B8B, #A33B3B);
 }
