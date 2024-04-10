@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .navbar-color {
-  background-color: rgba(15, 9, 12, 0.80);
-  filter: drop-shadow(56px 0px 56px #290F00);
+  background-color: rgba(15, 9, 12, 0.8);
+  filter: drop-shadow(56px 0px 56px #290f00);
 }
 
 .navbar-blur1 {
@@ -12,7 +12,7 @@
 }
 
 .border-gradient {
-  background: radial-gradient(circle at center, #B86E9F, #662525);
+  background: radial-gradient(circle at center, #b86e9f, #662525);
 }
 
 .border-gradient2 {
@@ -20,5 +20,5 @@
   height: 200px;
   border-radius: 50%;
   border: 1px solid transparent;
-  background: radial-gradient(circle at center, #CC8B8B, #A33B3B);
+  background: radial-gradient(circle at center, #cc8b8b, #a33b3b);
 }
